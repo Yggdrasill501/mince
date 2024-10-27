@@ -1,0 +1,13 @@
+max-auto-save-chunks-per-tick: 6
+optimize-explosions: true
+mob-spawn-range: 3
+entity-tracking-range:
+  players: 48
+  animals: 32
+  monsters: 32
+  misc: 32
+  other: 32
+chunk-loading:
+  min-load-radius: 2
+  max-concurrent-sends: 2
+  autoconfig-send-distance: true
