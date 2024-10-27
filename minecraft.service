@@ -1,0 +1,12 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/minecraft_server
+ExecStart=/home/pi/minecraft_server/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
