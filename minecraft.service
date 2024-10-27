@@ -3,9 +3,9 @@ Description=Minecraft Server
 After=network.target
 
 [Service]
-User=pi
-WorkingDirectory=/home/pi/minecraft_server
-ExecStart=/home/pi/minecraft_server/start.sh
+User=yggdrasill501
+WorkingDirectory=/home/yggdrasill501/minecraft-server
+ExecStart=/home/yggdrasill501/minecraft-server/start.sh
 Restart=always
 
 [Install]
